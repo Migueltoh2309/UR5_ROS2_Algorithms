@@ -26,13 +26,13 @@ from visualization_msgs.msg import Marker
 from geometry_msgs.msg import Point
 
 # Módulos del paquete UR5
-from ur5_algoritmos.fk_functions import fkine_ur5, TF2xyzquat
-from ur5_algoritmos.ik_functions import *
-from ur5_algoritmos.kine_control_functions import compute_dq, pose_error
-from ur5_algoritmos.markers import create_sphere_marker, set_marker_pose
+from ur5_algoritmos.funciones.fk_functions import fkine_ur5, TF2xyzquat
+from ur5_algoritmos.funciones.ik_functions import *
+from ur5_algoritmos.funciones.kine_control_functions import compute_dq, pose_error
+from ur5_algoritmos.funciones.markers import create_sphere_marker, set_marker_pose
 
 # Funciones de trayectoria de letras (V8)
-from ur5_algoritmos.letter_trajectory_functions import (
+from ur5_algoritmos.funciones.letter_trajectory_functions import (
     plot_letter_pil,
     process_image,
     skeleton_to_points,

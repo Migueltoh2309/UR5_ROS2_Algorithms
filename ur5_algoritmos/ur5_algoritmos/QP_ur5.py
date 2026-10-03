@@ -7,11 +7,11 @@ from sensor_msgs.msg import JointState
 from visualization_msgs.msg import Marker
 
 # Personal
-from ur5_algoritmos.fk_functions import *
-from ur5_algoritmos.ik_functions import *
-from ur5_algoritmos.kine_control_functions import *
-from ur5_algoritmos.QP_functions import *
-from ur5_algoritmos.markers import *
+from ur5_algoritmos.funciones.fk_functions import *
+from ur5_algoritmos.funciones.ik_functions import *
+from ur5_algoritmos.funciones.kine_control_functions import *
+from ur5_algoritmos.funciones.QP_functions import *
+from ur5_algoritmos.funciones.markers import *
 
 
 class UR5ControlNode(Node):

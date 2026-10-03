@@ -1,5 +1,5 @@
-from ur5_algoritmos.fk_functions import *
-from ur5_algoritmos.ik_functions import *
+from ur5_algoritmos.funciones.fk_functions import *
+from ur5_algoritmos.funciones.ik_functions import *
 
 def circular_trajectory(t, center, radius, omega):
 

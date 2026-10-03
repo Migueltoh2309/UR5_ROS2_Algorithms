@@ -45,6 +45,7 @@ setup(
             'QP_ur5 = ur5_algoritmos.QP_ur5:main',
             'p_test_llm_track = ur5_algoritmos.p_test_llm_track:main',
             'p_test_llm_track_gazebo = ur5_algoritmos.p_test_llm_track_gazebo:main',
+            'letter_trajectory = ur5_algoritmos.letter_trajectory_main:main',
         ],
     },
 )

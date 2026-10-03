@@ -3,9 +3,9 @@
 <package format="3">
   <name>ur5_algoritmos</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Cinemática, control cinemático y QP para el brazo UR5 en ROS 2</description>
   <maintainer email="molortegui@utec.edu.pe">utec</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>numpy</depend>

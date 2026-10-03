@@ -8,8 +8,8 @@ from visualization_msgs.msg import Marker
 from sensor_msgs.msg import JointState
 
 # FK
-from ur5_algoritmos.fk_functions import *
-from ur5_algoritmos.markers import *
+from ur5_algoritmos.funciones.fk_functions import *
+from ur5_algoritmos.funciones.markers import *
 
 
 class UR5FKNode(Node):

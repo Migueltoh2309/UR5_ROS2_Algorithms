@@ -70,4 +70,4 @@ ros2 run ur5_algoritmos letter_trajectory
 
 ## Autor
 
-Miguel Olortegui — UTEC
+MiTo Olórtegui Huamán — UTEC
